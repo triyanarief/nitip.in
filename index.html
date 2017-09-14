@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<title>Nitip Belanja Online Aman dan Terpercaya</title>
+
+<!--CSS-->
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/bootstrap-light.css">
+<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+<!--/CSS-->
+
+<!--JS-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/jquery.plugin.js"></script>
+<script src="js/jquery.countdown.js"></script>
+<script>
+$(function () {
+	$('#defaultCountdown').countdown({until: new Date(2017, 11, 11)});
+});
+</script>
+<!--/JS-->
+
+</head>
+
+<body>
+
+<!--DARK OVERLAY-->
+<div class="overlay"></div>
+<!--/DARK OVERLAY-->
+
+<!--WRAP-->
+<div id="wrap">
+	<!--CONTAINER-->
+	<div class="container">
+		<img src="images/logo.png" alt="nitip.in" class="image-align" />
+		<h1>
+			<span>Nitip Belanja Online? di <em class="blue"><b>nitip.in</b></em> aja!</span><br/>
+			Web dan Aplikasi Akan <span class="yellow">Segera Launch.</span>
+		</h1>
+		<!-- <p>Our site is currently <strong>under construction</strong> but we are working hard<br/> to create a new and fresh design.</p> -->
+		<div class="video">
+			<iframe width="350" height="198" src="https://www.youtube.com/embed/qPQQwqGWktE" frameborder="0" allowfullscreen></iframe>
+		<div id="defaultCountdown"></div>
+		<form name="sentMessage" id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbyrb6zyuLfbD-yDxvcPE0U-E-dRUjMoRKn3UMyXkePh7VyAaFro/exec" novalidate>
+			<input name="email" type="text" id="email" required="required" placeholder="Masukkan email anda di sini">
+			<input type="submit" value="GO!">
+		</form>
+		<div  style="display:none;" id="thankyou_message">
+        <p class="messagepop"><em class="blue">Terima Kasih</em> Sudah Berlengganan!
+        Kami Akan Menghubungi Anda Ketika Website dan Aplikasi Launch!</p>
+		</div>
+		<p class="copyright">Copyright by <a href="http://nitip.in" target="_blank">nitip.in</a></p>
+	</div>
+	<!--/CONTAINER-->
+</div>
+<!--/WRAP-->
+<script data-cfasync="false" type="text/javascript"
+src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
+</body>
+</html>
